@@ -1,0 +1,403 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    position: relative;
+    background-color:#000000;
+    opacity:0.9;
+    background-image:url("img/main_bg.png");
+    background-size:100% 100%;
+}
+/*音乐部分开始*/
+#music{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 9;
+}
+#music .musictu{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    animation: run  linear infinite 1s;
+}
+.musicimg{
+    position: fixed;
+    right: 8px;
+    top: 8px;
+    z-index: 9;
+    width: 60px;
+    height: 60px;
+}
+.musictu{
+    right: 9px;
+    top: 8px;
+    position: absolute;
+
+}
+@keyframes run {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.main{
+    position: relative;
+    width:100%;
+    height:97%;
+    top:3%;
+}
+.main_b{
+    width:100%;
+    height:19%;
+    position: absolute;
+    bottom:0;
+    z-index: 9;
+}
+.w_yi{
+    position: absolute;
+    font-family: cursive;
+    font-size: 8vw;
+    top:7%;
+    left:32%;
+    color:#d6a41d;
+    z-index:222;
+}
+.middle{
+    position: relative;
+    width:82%;
+    height:65%;
+    left:9%;
+    top:25%;
+}
+.yy{
+    width:78%;
+    height:9%;
+    position: absolute;
+    left:9%;
+    top:10%;
+}
+.mi_yi{
+    position: absolute;
+    left:50px;
+    top:20px;
+    z-index:2;
+}
+.mi_zi{
+    width:120px;
+    height:75px;
+    position: absolute;
+    left:90px;
+    top:90px;
+    z-index:999;
+}
+.mi_xian{
+    width:280px;
+    height:60px;
+    position: absolute;
+    left:30px;
+    top:115px;
+    z-index:999;
+}
+.m_guang{
+    position: absolute;
+    top:-40px;
+    width:365px;
+    height:90px;
+}
+.m_guang2{
+    position: absolute;
+    bottom:10px;
+    width:365px;
+    height:90px;
+}
+.wen_er{
+    position: absolute;
+    font-family: cursive;
+    font-size: 7vw;
+    top:260px;
+    left:50px;
+    color:#d6a41d;
+    z-index:222;
+}
+.wen_san{
+    position: absolute;
+    font-family: cursive;
+    font-size: 7vw;
+    top:290px;
+    left:50px;
+    color:#d6a41d;
+    z-index:222;
+}
+.jinse{
+    width:375px;
+    height:650px;
+    position: absolute;
+    z-index: 2;
+}
+.jin_jin{
+    width:310px;
+    height:580px;
+    position: absolute;
+    left:30px;
+    top:15px;
+}
+.chengzhi{
+    width:150px;
+    height:50px;
+    position: absolute;
+    top:5%;
+    left:28%;
+    z-index: 777;
+}
+.yao{
+    position: absolute;
+    font-family: cursive;
+    font-size: 7vw;
+    top:-18%;
+    left:46%;
+    color:#d6a41d;
+    z-index:999;
+}
+.mid{
+    width:280px;
+    height:410px;
+    position: absolute;
+    z-index: 2;
+    top:130px;
+    left:50px;
+}
+.repect{
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    top:2%;
+}
+.nih{
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    top:11%;
+}
+.nis{
+    width:250px;
+    height:270px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    top:20%;
+    left:10px;
+    line-height:1.5em;
+}
+.ni{
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    top:92%;
+}
+.dahui{
+    width:150px;
+    height:50px;
+    position: absolute;
+    top:5%;
+    left:28%;
+    z-index: 777;
+}
+.dd{
+    position: absolute;
+    font-family: cursive;
+    font-size: 7vw;
+    top:-20%;
+    left:37%;
+    color:#d6a41d;
+    z-index:999;
+}
+.liu1{
+    width:250px;
+    height:30px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    left:12%;
+    top:-5%;
+}
+.liu2{
+    width:250px;
+    height:30px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    left:12%;
+    top:10%;
+}
+.liu3 {
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    font-size: 4.8vw;
+    color: #d6a41d;
+    z-index: 999;
+    left: 12%;
+    top: 25%;
+}
+.liu4{
+    width:250px;
+    height:30px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    left:12%;
+    top:40%;
+}
+.liu5{
+    width:250px;
+    height:30px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    left:12%;
+    top:55%;
+}
+.liu6{
+    width:250px;
+    height:30px;
+    position:absolute;
+    font-size:4.8vw;
+    color:#d6a41d;
+    z-index: 999;
+    left:12%;
+    top:70%;
+}
+.di{
+    position: absolute;
+    font-family: cursive;
+    font-size: 5vw;
+    top:-5%;
+    left:12%;
+    color:#d6a41d;
+    z-index:999;
+}
+.dian{
+    position: absolute;
+    font-family: cursive;
+    font-size: 6.5vw;
+    top:3%;
+    left:14%;
+    color:#d6a41d;
+    z-index:999;
+}
+.lian{
+    position: absolute;
+    font-family: cursive;
+    font-size: 5vw;
+    top:65%;
+    left:9%;
+    color:#d6a41d;
+    z-index:999;
+}
+.xi{
+    position: absolute;
+    font-family: cursive;
+    font-size: 6.5vw;
+    top:70%;
+    left:13%;
+    color:#d6a41d;
+    z-index:999;
+}
+.kou{
+    position: absolute;
+    font-family: cursive;
+    font-size: 24px;
+    top:78%;
+    left:14%;
+    color:#d6a41d;
+    z-index:999;
+}
+.input1{
+    width:85%;
+    height:9%;
+    position: absolute;
+    top:6%;
+    left:8%;
+    font-size: 4vw;
+    z-index:9;
+    border-bottom:3px solid #d6a41d;
+}
+.input2{
+    width:85%;
+    height:9%;
+    position: absolute;
+    top:27%;
+    left:8%;
+    font-size: 4vw;
+    z-index:9;
+    border-bottom:3px solid #d6a41d;
+}
+.input3{
+    width:85%;
+    height:9%;
+    position: absolute;
+    border-bottom:3px solid #d6a41d;
+    top:48%;
+    left:8%;
+    font-size: 4vw;
+    z-index:9;
+
+}
+.input4{
+    width:85%;
+    height:9%;
+    position: absolute;
+    top:69%;
+    left:8%;
+    background:#666;
+    opacity: 0.7;
+    font-size: 4vw;
+    z-index:9;
+    border:1px solid #d6a41d;
+}
+.swiper-button-next{
+    position: absolute;
+    top:auto;
+    bottom:2%;
+    left:50%;
+    transform: rotate(-90deg);
+    margin-left: -13.5px;
+    animation:a 2s linear infinite;
+}
+@keyframes a {
+    from{
+        opacity:1;
+        transform: translate(0,0) rotate(-90deg);
+    }
+    to{
+        opacity:0.1;
+        transform: translate(0,-20px) rotate(-90deg);
+    }
+}
